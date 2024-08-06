@@ -43,8 +43,8 @@ public class Main {
         System.out.println(" Общая масса боксеров " + totalWeight + " кг ");
         var weightDifference = boxerWeightSecond - boxerWeightFirst;
         System.out.println(" Разница в весе составляет: " + weightDifference + " кг ");
-        weightDifference = boxerWeightSecond % boxerWeightFirst;
-        System.out.println(" Разница в весе составляет: " + weightDifference + " кг ");
+        var weightBoxerDifference = boxerWeightSecond % boxerWeightFirst;
+        System.out.println(" Разница в весе составляет: " + weightBoxerDifference + " кг ");
 
         var totalHours = 640;
         var hoursPerOne = 8;
@@ -53,6 +53,6 @@ public class Main {
         var addPer = 94;
         totalPer = totalPer + addPer;
         totalHours = totalPer * 8;
-        System.out.println(" Если в компании работает " + totalPer + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками ");
+        System.out.println(" Если в этой компании работает " + totalPer + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками ");
     }
 }
